@@ -15,10 +15,10 @@
         <h1>Hello World!</h1>
         <form action="hello" method="POST">
             <label for="firstName">First Name: </label>
-            <input id="firstName" type="text" name="firstName" placeholder="Enter firstname" /><br>
+            <input id="firstName" type="text" name="firstName" placeholder="Enter firstname" value="${firstName}" /><br>
             
             <label for="lastName">Last Name: </label>
-            <input id="lastName" type="text" name="lastName" placeholder="Enter lastname" /><br>
+            <input id="lastName" type="text" name="lastName" placeholder="Enter lastname" value="${lastName}" /><br>
             
             <input type="submit" name="Submit">
         </form>
